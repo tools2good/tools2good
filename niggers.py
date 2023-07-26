@@ -7,28 +7,7 @@ import socket
 
 def authorize():
 
-  f = open('auth.txt', 'r')
-
-  if f.read() == "codecity":
-
-    print('Authorized')
-
-    time.sleep(3)
-
-    os.system('cls||clear')
-
-    main()
-
-  else:
-    print('Welcome Back :)))')
-
-    input('Press enter')
-
-    print('Bro you thought you could access my Script :)) that easy :))')
-
-    time.sleep(5)
-
-    exit()
+  main()
 
 
 def main():
